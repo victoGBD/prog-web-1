@@ -1,0 +1,16 @@
+# prog-web-1<html>         
+          <head>
+          <title>Prog Web 1</title>
+          <link rel = "stylesheet" href = "victor.css">
+            <style>
+                  h2 { color: blue; }
+            </style>
+          </head>
+            <body>
+               <h1>Curiosidades</h1>
+              <p>Você sabia que a primeira linguagem de programação trata-se da linguagem B-0, conhecida como FLOW-MATIC ?.
+             </p>
+              <h2 style="font-family: sans-serif">Você sabia que:</h2>
+                <p>Até o momento, ainda não é possível precisar o número de linguagens de programação existentes, mas estima-se que, ao todo, existam cerca de 1150 linguagens desenvolvidas ?.</p>
+            </body>
+</html>           
