@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type= "text/css" href= "CSS"
+    <title>JOGOS</title>
+  </head>
+
+  <body>
+    <div class= "campo">
+      <h1 id= "title">Responda essas perguntas</h1>
+      <p id="subtitle">(Ou não)</p>
+    </div>
+    <form>
+      <fieldset class= "grupo">
+        <div class= "campo">
+          <label>Nome completo:</label>
+            <input type= "text" name= "nome" id= "nome" required>
+        </div>
+
+        <div class= "campo">
+          <label>Idade:</label>
+          <input type= "text" name= "idade" id= "idade" required>
+        </div>
+      </fieldset>
+      
+      <div class= "campo">
+        <label>Qual o seu console preferido dentre os listados a baixo:</label>
+        <label>
+          <input type= "radio" name="console" value= "ps2"> Play Station 2
+        </label>
+       
+        <label>
+          <input type= "radio" name="console" value= "ps3"> Play Station 3
+        </label>
+
+        <label>
+          <input type= "radio" name="console" value= "ps4"> Play Station 4       
+        </label>
+        <label>
+          <input type= "radio" name="console" value= "outros"> Outros
+        </label>
+      </div>
+
+            <div class="campo">
+                <label for="consolesq"><strong>Quantos consoles diferentes voce possui</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3 ou mais</option>
+                </select>
+            </div>
+
+      <fieldset class="grupo">
+        <div class= "campo">
+          <label>Selecione qual desses games já jogou </label>
+          <input type="checkbox" id="game1" name="game 1" value="minecraft">
+          <label for="game1">MINECRAFT</label>
+           <input type="checkbox" id="game2" name="game 2" value= "among">
+          <label for="game2">AMONG US</label>
+           <input type="checkbox" id="game3" name="game 3" value="fortnite">
+          <label for="game3">FORTNITE</label>
+           <input type="checkbox" id="game4" name="game 4" value="supermario">
+          <label for="game4">SUPER MARIO</label>
+           <input type="checkbox" id="game5" name="game 5" value="clashroyale">
+          <label for="game5">CLASH ROYALE</label>
+        </div>
+      </fieldset>
+      <div class="campo">
+        <label>Nos conte qual seu jogo favorito e o porque dele ser seu favorito.</label>
+        <textarea row= "6" style= "width: 26em" id= "jogofav" name="jogofav"></textarea>
+      </div>
+      <button class= "botao" type= "submit">Enviar Formulário</button>  
+    </form>
+
+  </body>
+
+</html>
