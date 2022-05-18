@@ -1,0 +1,74 @@
+{ 
+  margin:0;
+  padding:0;
+}
+
+#titulo{
+  font-family: sans-serife;
+  color: blue
+  margin left: 4%
+}
+
+#subtitulo{
+  font-family: sans-serife;
+  color: blue
+  margin left: 7%
+}
+
+fieldset {
+  border:0
+}
+
+body{
+  background-color : black;
+  font-family: sans-serife;
+  font-size: 1em;
+  color: green;
+  margin-left: 36%;
+  margin-top: 2%;
+  justify-content: center;
+
+}
+input, select, textarea, buttom{
+  border-radius: 5px;
+}
+
+.campo{
+margin-bottom 1em
+}
+
+.campo label{
+  margin-bottom 0.2em;
+  color: white;
+  display: block;
+}
+
+fieldset.grupo.campo{
+  float: left;
+  margin-right: 1em;
+}
+
+.campo input [type= "text"], .campo select, .campo textarea{
+  padding: 0.2em;
+  border: 1px solid blue;
+  box-shadow: 2px, 2px, 2px, rgba: #E0E0F8;
+  display: block;
+}
+
+.campo select opition{
+  padding-right 1em;
+}
+
+.campo input: focus, .campo select:focus, .campo textarea:focus{
+ background: #E0E0F8
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
