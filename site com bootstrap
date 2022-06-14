@@ -1,0 +1,50 @@
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reptilianos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <body>
+      <div class="container-lg">
+      <center>
+       <h1 style="color : #07f49e">O quanto você sabe sobre Reptilianos</h1>
+       <link rel="stylesheet" href="formulario.css"> 
+      </center> 
+      </div>
+      <br> 
+      <form> 
+        <center>
+         <div class="container-sm">
+           <div class="row">
+             <div class="col-lg-3">
+               <input type="text" class="form-control" placeholder="Nome" aria-label="Nome" required>
+             </div>
+           </div>
+         </div>
+        </center>
+          <br>
+          <div class="mb-3 row row-cols-8 row-cols-lg-8 g-4 g-lg-6">
+            <div class="col-md-12">  
+              <h2 style="color : #00ff87">Qual dos famosos abaixo é um reptiliano</h2> 
+              <select id="qualrepitiliano" required>
+                 <option selected disabled value="">Selecione</option>
+                 <option>Rainha Elizabeth</option>
+                 <option>Silvio Santos</option>
+                 <option>Roberto Carlos</option>
+                 <option>Todos</option>
+              </select>
+            </div>
+          </div>  
+          <br>
+          <center>
+            <h2 style="color : #07f49e">Deixe aqui outros famosos reptilianos</h2>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+          </center>
+          <br>
+          <br>
+          <div class="d-grid gap-2 col-md-3 mx-auto ">
+            <button class="botao" type="submit" onsubmit="">Enviar</button> 
+          </div>
+      </form>
+    </body>
+</html>
